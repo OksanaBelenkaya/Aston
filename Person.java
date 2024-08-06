@@ -1,12 +1,12 @@
 
 class Person {
 
-    String fullName;
-    String position;
-    String email;
-    String phoneNumber;
-    int salary;
-    int age;
+    private final String fullName;
+    private final String position;
+    private final String email;
+    private final String phoneNumber;
+    private final int salary;
+    private final int age;
 
     public Person(String fullName, String position, String email, String phoneNumber, int salary, int age) {
         this.fullName = fullName;
@@ -27,7 +27,7 @@ class Person {
         System.out.println(" ");
     }
 
-    public static void main(String[] args) {
+    public static void main() {
 
         Person employee = new Person("Изабелла Мари Свон", "Intern", "almax@yandex.ru", "89098905721", 30000, 25);
 
@@ -44,38 +44,5 @@ class Person {
             emp.printInfo();
         }
     }
-}
 
-class Park {
-
-    class Attraction {
-
-        String name;
-        String workingHours;
-        int cost;
-
-        public Attraction(String name, String workingHours, int cost) {
-            this.name = name;
-            this.workingHours = workingHours;
-            this.cost = cost;
-        }
-
-        public void printInfo() {
-            System.out.println("Название: " + name);
-            System.out.println("Время работы: " + workingHours);
-            System.out.println("Стоимость: " + cost);
-        }
-    }
-
-    public static void main(String[] args) {
-
-        Park park = new Park();
-
-        Park.Attraction attraction1 = park.new Attraction("Картинг", "09:00 - 12:00", 1500);
-        Park.Attraction attraction2 = park.new Attraction("Американские гоки", "15:00 - 00:00", 2500);
-
-        attraction1.printInfo();
-        System.out.println("");
-        attraction2.printInfo();
-    }
 }
