@@ -22,20 +22,20 @@ public class Main {
         System.out.println("Задание №2. Справочник номеров.");
         System.out.println(" ");
 
-        List<String> номераЗайцева = phoneDirectory.get("Зайцев");
-        System.out.println("Номера Зайцева: " + номераЗайцева);
+        List<String> numberOfZaitsev = phoneDirectory.get("Зайцев");
+        System.out.println("Номера Зайцева: " + numberOfZaitsev);
 
-        List<String> номераСметанкина = phoneDirectory.get("Сметанкин");
-        System.out.println("Номера Сметанкина: " + номераСметанкина);
+        List<String> numberOfSmetankin = phoneDirectory.get("Сметанкин");
+        System.out.println("Номера Сметанкина: " + numberOfSmetankin);
 
-        List<String> номераМигулина = phoneDirectory.get("Мигулин");
-        System.out.println("Номера Мигулина: " + номераМигулина);
+        List<String> numberOfMigulin = phoneDirectory.get("Мигулин");
+        System.out.println("Номера Мигулина: " + numberOfMigulin);
 
-        List<String> номераМагулина = phoneDirectory.get("Магулин");
-        System.out.println("Номера Магулина: " + номераМагулина);
+        List<String> numberOfMagulin = phoneDirectory.get("Магулин");
+        System.out.println("Номера Магулина: " + numberOfMagulin);
 
-        List<String> номераСамаркина = phoneDirectory.get("Самаркин");
-        System.out.println("Номера Сметанкина: " + номераСамаркина);
+        List<String> numberOfSamarkand = phoneDirectory.get("Самаркин");
+        System.out.println("Номера Самаркина: " + numberOfSamarkand);
 
     }
 }
