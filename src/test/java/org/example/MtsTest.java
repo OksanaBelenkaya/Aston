@@ -3,10 +3,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class MtsTest {
+public static WebDriver driver;
 
-	public static void main (String [] args) {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Оксана\\Desktop\\driver\\chrome-win64\\chrome_proxy.exe");
-		WebDriver driver = new ChromeDriver();
-		driver.get("https://www.mts.by");
-	}
+public static void main(String[] args) {
+//	driver = new ChromeDriver();
+//	driver.get("https://www.mts.by/");
+	System. setProperty ("webdriver.chrome.driver", "src/main/resources/chromedriver");
+	WebDriver driver = new ChromeDriver () ;
+	driver. get ("https://www.mts.by/");
+	
+}
 }
